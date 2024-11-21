@@ -1,0 +1,85 @@
+/*背景设置*/
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(v2-8299d5eae2d7c4ac66450baad1a1496a_r.jpg);
+    margin: 0;
+    padding: 20px;
+}
+/*左侧区块*/
+.main-container {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.side-container {
+    width: 40%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 5px solid orange;
+    border-radius: 8px;
+    margin-right: 20px;
+    font-family: Verdana, sans-serif;
+}
+/*右侧区块*/
+.content-container {
+    width: 60%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 5px solid orange;
+    border-radius: 8px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formula {
+    text-align: left;
+    padding: 5px;
+}
+.matrix-input{
+	display: flex;
+	align-items: center;
+}
+/*矩阵输入区域*/
+.matrix_input_container{
+	display: inline-block;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+}
+.matrix-input input {
+    width: 50px;
+	height: 50px;
+    margin: 5px;
+}
+
+.result {
+    margin-top: 10px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+/*导航栏设置*/
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*鼠标移动到选项上修改背景颜色 */
+li a:hover {
+    background-color: #111;
+}
